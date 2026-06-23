@@ -1,0 +1,15 @@
+dev\Jules\foliaCobAxe\config\ConfigManager.class
+dev\Jules\foliaCobAxe\cooldown\CooldownManager.class
+dev\Jules\foliaCobAxe\hook\CobAxeExpansion.class
+dev\Jules\foliaCobAxe\command\FoliaCobAxeCommand.class
+dev\Jules\foliaCobAxe\config\ConfigManager$SoundSpec.class
+dev\Jules\foliaCobAxe\listener\CobAxeListener.class
+dev\Jules\foliaCobAxe\command\CobAxeCommand.class
+dev\Jules\foliaCobAxe\manager\CobAxeManager.class
+dev\Jules\foliaCobAxe\config\ConfigManager$Settings.class
+dev\Jules\foliaCobAxe\util\ItemBuilder.class
+dev\Jules\foliaCobAxe\config\PlaceholderHook.class
+dev\Jules\foliaCobAxe\tracker\HitTracker.class
+dev\Jules\foliaCobAxe\util\Text.class
+dev\Jules\foliaCobAxe\config\ConfigManager$ParticleSpec.class
+dev\Jules\foliaCobAxe\FoliaCobAxe.class

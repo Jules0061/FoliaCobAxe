@@ -1,0 +1,25 @@
+name: FoliaCobAxe
+version: '${version}'
+main: dev.Jules.foliaCobAxe.FoliaCobAxe
+api-version: '1.21'
+folia-supported: true
+load: POSTWORLD
+authors: [ Jules ]
+description: cobaxe plugin for clonedupe
+softdepend: [ PlaceholderAPI ]
+
+commands:
+  cobaxe:
+    description: Give the Cob Axe.
+    usage: /cobaxe
+  foliacobaxe:
+    description: Plugin admin command.
+    usage: /foliacobaxe reload
+
+permissions:
+  foliacobaxe.give:
+    description: Allows giving the Cob Axe.
+    default: op
+  foliacobaxe.reload:
+    description: Allows reloading the plugin.
+    default: op

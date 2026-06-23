@@ -1,0 +1,44 @@
+# FoliaCobAxe configuration
+# Color codes use legacy '&' (e.g. &f &l). Unicode small-caps glyphs are supported.
+
+item:
+  material: NETHERITE_AXE
+  name: "&f&lᴄᴏʙ &f&lᴀxᴇ"
+  lore:
+    - "&7A wicked axe that traps foes."
+    - "&7Land &f10 &7hits to spin a web."
+    - "&7Sneak + Right-Click to clear webs."
+  # Add a hidden enchant glint without a real enchant effect.
+  glint: true
+  unbreakable: true
+
+ability:
+  hits-required: 10
+  web-duration-seconds: 3
+  # Block placed at the victim location when the threshold is reached.
+  web-material: COBWEB
+  particles:
+    enabled: true
+    type: CRIT
+    count: 25
+    offset-x: 0.4
+    offset-y: 0.8
+    offset-z: 0.4
+    speed: 0.05
+
+clear:
+  radius: 5
+  cooldown-seconds: 35
+  # Only these materials are removed when clearing.
+  materials:
+    - COBWEB
+
+sounds:
+  clear:
+    name: ENTITY_HORSE_ARMOR
+    volume: 1.0
+    pitch: 1.0
+  trap:
+    name: BLOCK_BIG_DRIPLEAF_TILT_UP
+    volume: 1.0
+    pitch: 1.0

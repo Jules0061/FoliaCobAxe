@@ -1,0 +1,25 @@
+# All messages support legacy '&' codes and the placeholders noted per line.
+# {prefix} is available on every line. PlaceholderAPI placeholders work if PAPI is installed.
+
+prefix: "&8[&fᴄᴏʙ&7ᴀxᴇ&8] &r"
+
+no-permission: "{prefix}&cYou lack permission to do that."
+given-item: "{prefix}&aYou received the &fᴄᴏʙ ᴀxᴇ&a."
+given-item-other: "{prefix}&aGave the ᴄᴏʙ ᴀxᴇ to &f{target}&a."   # {target}
+player-only: "{prefix}&cThis command can only be run by a player."
+reload-success: "{prefix}&aConfiguration reloaded."
+usage-foliacobaxe: "{prefix}&7Usage: &f/foliacobaxe reload"
+
+# {progress} current hits, {required} threshold
+progress-actionbar: "&f&lᴄᴏʙᴡᴇʙ ᴘʀᴏɢʀᴇss: &7{progress}&8/&f{required}"
+
+trap-actionbar: "&f&lᴛᴀʀɢᴇᴛ ᴡᴇʙʙᴇᴅ!"
+
+# {seconds} whole seconds remaining, {seconds_precise} one-decimal
+cooldown-actionbar: "&cCleanse on cooldown: &f{seconds_precise}s"
+cooldown-chat: "{prefix}&cYou must wait &f{seconds_precise}s &cbefore clearing webs again."
+
+# {removed} number of cobwebs removed, {radius} configured radius
+clear-success-actionbar: "&aCleared &f{removed} &acobwebs."
+clear-success-chat: "{prefix}&aCleared &f{removed} &acobwebs within &f{radius} &ablocks."
+clear-empty-actionbar: "&7No cobwebs nearby."
